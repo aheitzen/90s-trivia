@@ -1,2 +1,2 @@
-html,body{background-color:pink;height:100%;width:100%}
+html,body{height:100%;width:100%;margin:0}.animationClass{height:100%;width:100%;background-position:center;background-repeat:no-repeat;background-position:center center;background-attachment:fixed;background-size:cover;display:flex;justify-content:center;align-items:center}img{height:30%;width:100%;margin:0}@keyframes gifAnimation{0%{background-image:url("../gifs/pasta.gif")}25%{background-image:url("../gifs/spice.gif")}50%{background-image:url("../gifs/toma.gif")}100%{background-image:url("../gifs/vodka.gif")}}
 /*# sourceMappingURL=main.css.map */

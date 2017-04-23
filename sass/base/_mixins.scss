@@ -2,10 +2,7 @@ html,body {
 	height: 100%;
 	width: 100%;
 	margin: 0;
-	background-image: url('../images/90sBackground.png');
-	background-position: center center;
-	background-attachment: fixed; 
-	background-size: cover;
+	
 }
 .animationClass {
 	height: 100%;
@@ -15,8 +12,5 @@ html,body {
     background-position: center center;
 	background-attachment: fixed; 
 	background-size: cover;
-	display: flex;
-    justify-content: center;
-    align-items: center;
-
 }
+

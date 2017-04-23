@@ -1,13 +1,13 @@
-img {
-	height: 100%; 
-	width: 100%;
-	margin: 0;
+@import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One');
+
+.chanelClass {
+	color: $neonGreen;
+	font-size: 60px;
+	font-family: 'Rubik Mono One', sans-serif;
+	float: right;
+	margin-right: 20px;
+	margin-top: 20px;
 }
 
-@keyframes gifAnimation {
-    0%   {background-image: url('../gifs/pasta.gif');}
-    25%  {background-image: url('../gifs/spice.gif');}
-    50%  {background-image: url('../gifs/toma.gif');}
-    100% {background-image: url('../gifs/vodka.gif');}
-}
+
 

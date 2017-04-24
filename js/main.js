@@ -18,7 +18,7 @@ var giphyArray = [
 	},
 	{
 		url: "vodka.gif",
-		delay: 1000,
+		delay: 900,
 		chanel: "CH 04"
 	},
 	{
@@ -37,7 +37,7 @@ function gifAnimation() {
 		setTimeout(gifAnimation, delay);
 	} else {
 		$('.noiseClass').css('display', 'none');
-		// $('#letsPlayButton').css('display', 'flex');
+		$('#letsPlayButton').css('display', 'inline');
 		$('#asIfLogo').css('display', 'inline');
 
 	}

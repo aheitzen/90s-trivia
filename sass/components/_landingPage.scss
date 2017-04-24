@@ -6,7 +6,6 @@ html,body {
 .animationClass {
 	height: 100%;
     width: 100%;
-    background-position: center;
     background-repeat: no-repeat;
     background-position: center center;
 	background-attachment: fixed; 
@@ -20,24 +19,27 @@ html,body {
 	background-image: url('../gifs/giphy.gif')
 }
 
-button#letsPlayButton {
+#letsPlayButton {
 	border: $hotPink solid 3px;
 	background-color: transparent;
-	height: 50px;
+	height: 50px;	
 	width: 150px;
+	margin-top: 110px;
+	margin-left: -75px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
 	font-size: 20px;
 	color: $seaFoam;
 	display: none;
-	justify-content: center;
-    align-items: center;
+	font-family: eightBitFont;
+	&:hover {
+		background-color: $yellow;
+		border: none;
+		color: $lavender;
+		cursor: pointer;
+	}
 }
-
-// #imageTest {
-// 	height: 100%;
-// 	width: 100%;
-// 	background-image: url('../images/90sSplashImage.png');
-// 	display: none;
-// }
 
 img {
 	height: 450px;	

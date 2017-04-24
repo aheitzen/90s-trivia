@@ -36,7 +36,10 @@ function gifAnimation() {
 		index++;
 		setTimeout(gifAnimation, delay);
 	} else {
-		$('#letsPlayButton').css('display', 'flex');
+		$('.noiseClass').css('display', 'none');
+		// $('#letsPlayButton').css('display', 'flex');
+		$('#asIfLogo').css('display', 'inline');
+
 	}
 }
 gifAnimation();

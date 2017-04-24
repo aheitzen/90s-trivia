@@ -1,9 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One');
+@font-face {
+	font-family: "eightBitFont";
+	src:  url("../images/eightBitFont.ttf") format("truetype")
+}
 
 .chanelClass {
 	color: $neonGreen;
 	font-size: 60px;
-	font-family: 'Rubik Mono One', sans-serif;
+	font-family: eightBitFont;
 	float: right;
 	margin-right: 20px;
 	margin-top: 20px;

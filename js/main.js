@@ -37,7 +37,6 @@ function gifAnimation() {
 		setTimeout(gifAnimation, delay);
 	} else {
 		$('.noiseClass').css('display', 'none');
-		// $('#letsPlayButton').css('display', 'inline');
 		$('#letsPlayButton').addClass("slideIn");
 		$('#asIfLogo').css('display', 'inline');
 

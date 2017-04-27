@@ -32,17 +32,15 @@ html,body {
 	color: $seaFoam;
 	display: none;
 	font-family: eightBitFont;
+	a {
+		text-decoration: none;
+		color: $seaFoam;
+	}
 	&:hover {
 		background-color: $yellow;
 		border: none;
-		color: $lavender;
 		cursor: pointer;
 	}
-}
-
-#testResponsive {
-	height: 350px;
-	width: 800px;
 }
 
 img {

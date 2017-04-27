@@ -1,0 +1,16 @@
+@keyframes fadeIn {
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+#letsPlayButton.slideIn {
+	animation: slideIn 1s forwards;
+	animation-delay: 1s;
+	display: inline;
+	left: -150px;
+}
+
+@keyframes slideIn {
+	0% { left: -150px; }
+	100% { left: 50%; }
+}

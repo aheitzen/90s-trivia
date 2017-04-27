@@ -1,1 +1,18 @@
+button#deleteButton.btn.btn-warning {
+	@media screen and (max-width: 360px) {
+		margin-top: 5px;
+	}
+}
 
+@media screen and (max-width: 400px) {
+	img#asIfLogo {
+	 
+		margin-top: -110px;
+		margin-left: -200px;
+	}
+
+	button#letsPlayButton {
+		margin-top: 75px;
+	}
+
+}
